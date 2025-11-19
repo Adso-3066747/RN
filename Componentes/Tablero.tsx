@@ -136,6 +136,7 @@ export default function Tablero(){
                     mode="date"
                     display="default"
                     onChange={onDateChange}
+                    minimumDate={new Date()}
                 />
             )}
 

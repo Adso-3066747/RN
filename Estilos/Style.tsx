@@ -58,6 +58,15 @@ const estilos=StyleSheet.create({
         display:'flex',
         flexDirection:'row',
         gap:25
+    },
+    Fondo:{
+        flex:1
+    },
+    PI:{
+        height:'100%',
+        display:'flex',
+        justifyContent:'center',
+        alignItems:'center'
     }
 })
 export default estilos
